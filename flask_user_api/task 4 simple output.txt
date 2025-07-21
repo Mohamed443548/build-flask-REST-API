@@ -1,4 +1,30 @@
-#Add home route here
-@app.route('/')
-def home():
-    return("welcome! your flask API is running")
+ POST /users
+{
+  "id": 1,
+  "name": "Mohamed Idrish",
+  "email": "idrish@example.com",
+  "created_at": "2025-07-21T12:34:56.789012"
+}
+
+GET /users
+[
+  {
+    "id": 1,
+    "name": "Mohamed Idrish",
+    "email": "idrishmohamed114@gmail.com",
+    "created_at": "2025-07-21T12:34:56.789012"
+  }
+]
+
+PUT /users/1
+{
+  "id": 1,
+  "name": "Updated Idrish",
+  "email": "updated ijazmohamed114@gmail.com",
+  "created_at": "2025-07-21T12:34:56.789012"
+}
+
+DELETE /users/1
+{
+"message": "User 1 deleted successfully"
+}
