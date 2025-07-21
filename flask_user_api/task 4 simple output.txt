@@ -1,0 +1,4 @@
+#Add home route here
+@app.route('/')
+def home():
+    return("welcome! your flask API is running")
