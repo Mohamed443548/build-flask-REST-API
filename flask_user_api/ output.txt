@@ -11,7 +11,7 @@ GET /users
   {
     "id": 1,
     "name": "Mohamed Idrish",
-    "email": "idrishmohamed114@gmail.com",
+    "email": "idrish@example.com",
     "created_at": "2025-07-21T12:34:56.789012"
   }
 ]
@@ -20,7 +20,7 @@ PUT /users/1
 {
   "id": 1,
   "name": "Updated Idrish",
-  "email": "updated ijazmohamed114@gmail.com",
+  "email": "updated ijaz@example.com",
   "created_at": "2025-07-21T12:34:56.789012"
 }
 
